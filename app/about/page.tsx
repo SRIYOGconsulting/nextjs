@@ -2,12 +2,15 @@
 import ClapFunction from '../../components/ClappingFunction';
 // import Ribbon from '../../components/Ribbon';
 import Image from 'next/image';
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 const About = ()=> {
 
     return (
         <div className='about font-size'>
             {/* Full-width Ribbon Header */}
+            <Header/>
             {/* <Ribbon name="About" showfont={true}/> */}
            
             <div className="max-w-7xl mx-auto px-4 md:px-8 pb-8">
@@ -76,6 +79,9 @@ const About = ()=> {
                 <div className="mt-6 md:mt-8 flex justify-start">
                     <ClapFunction/>
                 </div>
+            </div>
+            <div>
+                <Footer/>
             </div>
         </div>
     );

@@ -22,7 +22,7 @@ const Footer = () => {
               onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
             >
               <img
-                src="/images/Logo/sriyoglogo.svg"
+                src="/logo/wordmark-logo.svg"
                 alt="Sriyog Logo"
                 className="w-[200px] h-auto"
               />

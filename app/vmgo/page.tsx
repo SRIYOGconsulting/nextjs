@@ -23,11 +23,11 @@ export default function Vmgo() {
                   <p>Mission</p>
                 </div>
                 <div className='flex flex-col justify-center items-center gap-3'>
-                  <Image height={24} width={24} src="/vmgo/goals.png" alt="" className="w-24 h-24 " />
+                  <Image height={24} width={24} src="/vmgo/goal.png" alt="" className="w-24 h-24 " />
                   <p>Goals</p> 
                 </div>
                 <div className='flex flex-col justify-center items-center gap-3'>
-                  <Image height={24} width={24} src="/vmgo/objectives.png" alt="" className="w-24 h-24" /> 
+                  <Image height={24} width={24} src="/vmgo/objective.png" alt="" className="w-24 h-24" /> 
                   <p>Objectives</p>    
                 </div> 
             </div>
@@ -68,7 +68,7 @@ export default function Vmgo() {
         {/* Goals Section */}
         <section id="goals" className="flex justify-between gap-24 py-8 max-w-5xl mx-auto">
           <div className="hidden md:flex items-center  mb-6">   
-              <Image height={600} width={800} src="/vmgo/goals.png" alt="" className="w-60 h-40 " />
+              <Image height={600} width={800} src="/vmgo/goal.png" alt="" className="w-60 h-40 " />
           </div>
           <div className="p-8 md:p-16 space-y-4 card rounded-xl">
             <h2 className="text-3xl font-bold text">Our Goals</h2>
@@ -101,7 +101,7 @@ export default function Vmgo() {
             ))}
           </div>
           <div className="hidden md:flex items-center mb-6">
-              <Image height={600} width={800} src="/vmgo/objectives.png" alt="" className="w-auto h-44 text-teal-700" />
+              <Image height={600} width={800} src="/vmgo/objective.png" alt="" className="w-auto h-44 text-teal-700" />
           </div>
         </section>
     </div>
